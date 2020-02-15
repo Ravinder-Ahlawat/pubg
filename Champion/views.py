@@ -6,5 +6,5 @@ def index(request):
     return render(request, 'index.html')
 
 
-def pubg(request):
-    return render(request, 'pubg.html')
+def about(request):
+    return render(request, 'about.html')
